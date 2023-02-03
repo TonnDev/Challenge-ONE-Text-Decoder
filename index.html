@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/ac4f60e2e4.js" crossorigin="anonymous"></script>
+
+		<link rel="icon" type="image/x-icon" href="assets/images/shield-halved-solid.svg"/>
+		<title>Decodificador de Texto - Challenge ONE</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<h1><img class="logo-header" src="assets/images/logo_alura.svg" alt="Logo do Decodificador de Texto"></h1>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<div class="text-area">
+					<h2 class="titulo-textarea">Hey! Escreva o que gostaria de criptografar.</h2>
+					<textarea id="textInput" placeholder="Digite aqui sua mensagem.."></textarea>
+					<textarea id="textOutput" placeholder="Sua mensagem sairá aqui!" readonly></textarea>
+				</div>
+
+				<div class="buttons">
+					<div>
+						<button id="btnCriptografar" onclick="criptografaMensagem()"><i class="fa-solid fa-lock fa-fade"></i> Criptografar</button>
+						<button id="btnDescriptografar" onclick="descriptografaMensagem()"><i class="fa-solid fa-lock-open fa-fade"></i> Descriptografar</button>
+					</div>
+
+					<div>
+						<button id="btnCopiar" onclick="copiarMensagem()"><i class="fa-solid fa-copy"></i></button>
+						<button id="btnApagar" onclick="apagarMensagem()"><i class="fa-solid fa-eraser"></i></button>
+					</div>
+				</div>
+
+				<div class="text-alert">
+					<p><i class="fa-solid fa-circle-exclamation"></i> Use apenas letras minúsculas e sem acento.</p>
+				</div>
+			</section>
+
+			<div class="icon-shield">
+				<p><i class="fa-solid fa-shield-halved"></i></p>
+			</div>
+		</main>
+
+		<footer class="footer-box">
+			<div class="icon-social">
+				<a class="icon-git" href="https://github.com/TonnDev" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a class="icon-linkedin" href="https://www.linkedin.com/in/adenailton-santos-dev" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+				<a class="icon-instagram" href="https://www.instagram.com/tonn_couttinho/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+			<div>
+				<p class="copyright"><i class="fa-solid fa-copyright"></i> Desenvolvido por <strong>Adenailton Santos </strong><i class="fa-solid fa-laptop-code"></i></p>
+			</div>
+		</footer>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
