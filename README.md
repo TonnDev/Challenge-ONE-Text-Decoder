@@ -1,6 +1,6 @@
 # Text Decoder - Alura Challenge ONE 🔒
 <p align="center">
-  <img src="" alt="Escudo de segurança" width=100 />
+  <img src="https://raw.githubusercontent.com/TonnDev/Challenge-ONE-Text-Decoder/main/assets/images/shield-halved-solid.svg" alt="Escudo de segurança" width=100 />
 </p>
 
 ## INTRODUÇÃO
