@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-	width: 0.9vw;
+	width: 1vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,7 +15,6 @@
 ::-webkit-scrollbar-thumb:hover {
 	background: #59B795;
 }
-
 
 body {
 	font-family: 'Ubuntu', sans-serif;
@@ -215,6 +214,52 @@ strong {
  .copyright {
 	text-align: center;
 	font-size: 2.5vh;
+ }
+
+ @media screen and (max-width: 1280px) {
+ 		.titulo-textarea {
+		font-size: 2.5vw;
+		margin: 1.5vh 8vw 0;
+	}
+
+	#textInput, #textOutput {
+		width: 62vw;
+		height: 24vh;
+		margin-top: 3vh;
+		font-size: 3vh;
+	}
+
+	#btnCriptografar,
+	#btnDescriptografar {
+    width: 16vw;
+    height: 8vh;
+    font-size: 2.2vh;
+	}
+
+	#btnCopiar,
+	#btnApagar {
+    width: 8vw;
+    height: 8vh;
+    font-size: 3.5vh;
+	}
+
+	.text-alert {
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	.icon-shield {
+		font-size: 11vw;
+	}
+
+	.fa-brands {
+		font-size: 5vw;
+	}
+
+	.copyright {
+		font-size: 1.8vw;
+	}
+
  }
 
  @media screen and (max-width: 940px) {
